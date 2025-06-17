@@ -37,3 +37,14 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+
+
+# dotenv files
+.env
+.env.*
+!.env.example
+
+# Docker
+*.pid
+.dockerignore
+docker-compose.override.yml
